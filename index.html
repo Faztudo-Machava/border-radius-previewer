@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius Previewer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="main" class="main">
+        <h3>Border Radius Previewer</h3>
+        <div id="code">
+            <p id="cssprop">border-radius: 0px 0px 0px 0px;</p>
+        </div>
+        <div id="box"></div>
+        <div>
+            <select id="unidade" name="unit" id="unit">
+                <option value="px">px</option>
+                <option value="%">%</option>
+                <option value="em">em</option>
+                <option value="rem">rem</option>
+                <option value="ch">ch</option>
+                <option value="cm">cm</option>
+                <option value="fr">fr</option>
+                <option value="mm">mm</option>
+                <option value="pc">pc</option>
+                <option value="pt">pt</option>
+            </select>
+        </div>
+        <div>
+            <input id="borderTL" type="text" placeholder="Border top-left">
+            <input id="borderTR" type="text" placeholder="Border top-right">
+            <input id="borderBL" type="text" placeholder="Border bottom-left">
+            <input id="borderBR" type="text" placeholder="Border bottom-right">
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
